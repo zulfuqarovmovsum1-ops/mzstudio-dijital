@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MZ Digital Studio — kreativ rəqəmsal dizayn, təqdimat və video xidmətləri.">
+  <title>MZ Digital Studio | Kreativ rəqəmsal həllər</title>
+  <style>
+    :root{--bg:#090d1c;--panel:#111a31;--text:#f5f7ff;--muted:#aeb8d2;--purple:#9b7bff;--cyan:#58d9e9}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at 85% 10%,#252052 0,transparent 28%),var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,90%);margin:auto}
+    header{padding:22px 0;border-bottom:1px solid #ffffff18;position:sticky;top:0;background:#090d1ceF;backdrop-filter:blur(12px);z-index:5}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:18px}.logo{font-weight:800;letter-spacing:.5px;font-size:20px}.logo span{color:var(--purple)}
+    .links{display:flex;gap:22px;color:var(--muted);font-size:14px}.links a:hover{color:white}
+    .hero{padding:100px 0 85px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center}
+    .tag{display:inline-block;padding:7px 13px;border:1px solid #9b7bff66;border-radius:30px;color:#c9bbff;background:#9b7bff12;font-size:13px}
+    h1{font-size:clamp(42px,6vw,68px);line-height:1.08;margin:22px 0 18px;letter-spacing:-2px}
+    h1 em{font-style:normal;background:linear-gradient(90deg,var(--purple),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{max-width:600px;color:var(--muted);font-size:18px}
+    .buttons{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{padding:13px 20px;border-radius:12px;font-weight:700;display:inline-block}
+    .primary{background:linear-gradient(100deg,var(--purple),#6b8cff);color:white;box-shadow:0 10px 30px #7c68ff35}.secondary{border:1px solid #ffffff35;color:var(--text)}
+    .orb{min-height:310px;border:1px solid #ffffff20;border-radius:28px;background:linear-gradient(145deg,#1b2850,#15132f);display:grid;place-items:center;position:relative;overflow:hidden}
+    .orb:before,.orb:after{content:"";position:absolute;border-radius:50%;filter:blur(2px)}.orb:before{width:210px;height:210px;background:#9270ff55;top:-45px;right:-35px}.orb:after{width:180px;height:180px;background:#4bd9e955;bottom:-60px;left:-30px}
+    .orb-inner{z-index:1;text-align:center}.orb-inner strong{font-size:65px;display:block;letter-spacing:-5px}.orb-inner small{color:#c5cce4;letter-spacing:4px}
+    section{padding:65px 0}.section-title{font-size:34px;margin:0 0 10px}.sub{color:var(--muted);margin:0 0 30px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:linear-gradient(150deg,#141f3a,#101629);border:1px solid #ffffff16;padding:24px;border-radius:18px;transition:.2s}.card:hover{transform:translateY(-5px);border-color:#9b7bff88}
+    .icon{font-size:27px}.card h3{margin:12px 0 7px}.card p{color:var(--muted);font-size:14px;margin:0}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.aboutbox{padding:28px;border-radius:20px;background:#111a31;border:1px solid #ffffff18;color:var(--muted)}
+    .contact{padding:35px;border-radius:24px;background:linear-gradient(110deg,#211c4b,#122b43);border:1px solid #ffffff20;display:flex;align-items:center;justify-content:space-between;gap:25px}
+    footer{padding:28px 0;border-top:1px solid #ffffff18;color:var(--muted);font-size:13px}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:70px 0 55px}.orb{min-height:220px}.grid{grid-template-columns:1fr}.about{grid-template-columns:1fr}.links{gap:11px;font-size:12px}.links a:nth-child(2),.links a:nth-child(3){display:none}.contact{display:block}.contact .btn{margin-top:12px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="logo" href="#">MZ <span>DIGITAL STUDIO</span></a>
+  <div class="links"><a href="#services">Xidmətlər</a><a href="#about">Haqqımızda</a><a href="#contact">Əlaqə</a></div>
+</nav></div></header>
+<main>
+  <div class="wrap hero">
+    <div>
+      <span class="tag">✨ Kreativ ideyalar · Rəqəmsal həllər</span>
+      <h1>İdeyanı <em>rəqəmsal</em><br>gözəlliyə çevirək.</h1>
+      <p class="lead">MZ Digital Studio — dizayn, təqdimat və rəqəmsal məzmun üçün yaradıcı studiya. Fikrini birlikdə gözəl layihəyə çevirək.</p>
+      <div class="buttons">
+        <a class="btn primary" href="https://www.instagram.com/mzstudio.dijital/" target="_blank" rel="noopener">Instagram-da sifariş et ↗</a>
+        <a class="btn secondary" href="#services">Xidmətlərə bax</a>
+      </div>
+    </div>
+    <div class="orb"><div class="orb-inner"><strong>MZ</strong><small>DIGITAL STUDIO</small></div></div>
+  </div>
+
+  <section id="services"><div class="wrap">
+    <h2 class="section-title">Xidmətlərimiz</h2><p class="sub">Layihən üçün yaradıcı və səliqəli rəqəmsal işlər.</p>
+    <div class="grid">
+      <article class="card"><div class="icon">🎨</div><h3>Canva dizaynları</h3><p>Sosial media postları, elanlar, afişalar və kreativ vizuallar.</p></article>
+      <article class="card"><div class="icon">📊</div><h3>PowerPoint</h3><p>Mövzuya uyğun, aydın və cəlbedici təqdimatlar.</p></article>
+      <article class="card"><div class="icon">🎬</div><h3>Video montajı</h3><p>Qısa videolar və sosial şəbəkələr üçün dinamik montaj.</p></article>
+      <article class="card"><div class="icon">📱</div><h3>Sosial media</h3><p>Instagram üçün post, story və vizual üslub.</p></article>
+      <article class="card"><div class="icon">🌐</div><h3>Sadə veb-saytlar</h3><p>Şəxsi layihələr və kiçik bizneslər üçün müasir səhifələr.</p></article>
+      <article class="card"><div class="icon">📄</div><h3>PDF və planlayıcılar</h3><p>Rəqəmsal planlayıcılar, iş vərəqləri və səliqəli PDF-lər.</p></article>
+    </div>
+  </div></section>
+
+  <section id="about"><div class="wrap about">
+    <div><h2 class="section-title">Haqqımızda</h2><p class="sub">Kiçik ideyalar böyük işlərə çevrilə bilər.</p></div>
+    <div class="aboutbox">MZ Digital Studio yaradıcılığı və texnologiyanı birləşdirən rəqəmsal studiyadır. Məqsədimiz ideyaları sadə, gözəl və istifadəsi rahat dizaynlara çevirməkdir. Portfolio nümunələri hazır olduqca bu bölməyə əlavə edilə bilər.</div>
+  </div></section>
+
+  <section id="contact"><div class="wrap"><div class="contact">
+    <div><h2 class="section-title">Layihənə başlayaq?</h2><p class="sub" style="margin:0">Sifariş və suallar üçün Instagram səhifəmizə yaz.</p></div>
+    <a class="btn primary" href="https://www.instagram.com/mzstudio.dijital/" target="_blank" rel="noopener">@mzstudio.dijital ↗</a>
+  </div></div></section>
+</main>
+<footer><div class="wrap">© 2026 MZ Digital Studio · Bütün hüquqlar qorunur.</div></footer>
+</body>
+</html>
